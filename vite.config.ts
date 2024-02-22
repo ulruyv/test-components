@@ -9,7 +9,7 @@ export default defineConfig({
     minify: true,
     lib: {
       entry: path.resolve(__dirname, "src/index.ts"),
-      name: "@ulruyv/test-components",
+      name: "index",
       fileName: "index",
       formats: ["es"],
     },
