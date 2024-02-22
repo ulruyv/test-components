@@ -1,0 +1,28 @@
+node_modules
+.vscode
+localhost-key.pem
+localhost.pem
+src
+src/*
+public
+public/*
+vite.config.ts
+tsconfig.node.json
+tsconfig.json
+index.html
+.gitignore
+.env
+.eslintrc.cjs
+examples
+examples/*
+publish.js
+.github
+# entry.js
+# index.html
+# .prettierrc
+# .prettierignore
+# vite.config.ts
+# memo.txt
+# svelte.config.js
+# .eslintrc.cjs
+# gsheet_config

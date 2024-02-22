@@ -1,19 +1,37 @@
 {
-  "name": "test-components",
-  "private": true,
-  "version": "0.0.0",
+  "name": "@ulruyv/test-components",
+  "version": "0.1.0",
   "type": "module",
+  "author": "ulruyv",
+  "description": "react test components",
+  "main": "./dist/index.js",
+  "style": "./dist/index.css",
+  "files": [
+    "dist"
+  ],
+  "module": "./dist/index.js",
+  "keywords": [
+    "react",
+    "test component",
+    "component"
+  ],
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/ulruyv/test-components"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "publish": "npm version patch && npm run build && npm publish && git push"
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@types/node": "^20.11.19",
     "@types/react": "^18.2.56",
     "@types/react-dom": "^18.2.19",
     "@typescript-eslint/eslint-plugin": "^7.0.2",
